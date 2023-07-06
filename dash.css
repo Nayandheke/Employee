@@ -1,0 +1,127 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #54335e ;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .LOGO
+  {
+    width: 120px;
+    height: 90px;
+  }
+  .buttons {
+    display: flex;
+  }
+  .data
+  {
+    text-decoration: none;
+    color: #171717;
+  }
+  .button1 {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff6584;
+    color:#171717 ;
+    font-size: 14px;
+  }
+  .button1:hover {
+    background-color: #171717 ;
+    color:#fff ;
+  }
+
+  .row 
+  {
+    background-color:#ff6584;
+    height: 40px;
+    padding: 10px;
+  }
+
+  .van
+  {
+    margin: 6px;
+    list-style-type: none;
+    text-align: center;
+  }
+  .van li
+  {
+    font-size: large;
+    margin:20px ;
+    font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+  }
+
+  banner
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 80px;
+    margin-left: 90px;
+  }
+  .description h1
+  {
+    font-size: 50px;
+  }
+  .description p
+  {
+    text-align: justify;
+    width: 600px;
+    text-indent: 50px;
+  }
+
+  .photo img
+  {
+    padding-left: 200px;
+    width: 60%;
+  }
+  banner1
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 80px;
+    margin-left: 90px;
+  }
+  .description1
+  {
+    padding-right: 90px;
+  }
+  .description1 h1
+  {
+    font-size: 50px;
+  }
+  .description1 p
+  {
+    text-align: justify;
+    width: 600px;
+    text-indent: 50px;
+  }
+
+  .photo1 img
+  {
+
+    width: 60%;
+  }
+
+  footer
+  {
+    margin: 0;
+    padding: 0;
+    background-color: #54335e;
+  }
+  footer h1
+  {
+    padding-top: 20px;
+    text-align: center;
+  }

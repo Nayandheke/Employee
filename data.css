@@ -1,0 +1,94 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #54335e ;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .LOGO
+  {
+    width: 120px;
+    height: 90px;
+  }
+  .buttons {
+    display: flex;
+  }
+
+  .button1 {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffd064;
+    color:#171717 ;
+    font-size: 14px;
+  }
+  .button1:hover {
+    background-color: #171717 ;
+    color:#fff ;
+  }
+
+  body h1
+  {
+    text-align: center;
+    color: #54335e;
+    font-size: 60px;
+  }
+  .card-container {
+    margin: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card {
+    width: 300px;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  .card-content h3
+  {
+    text-align: center;
+    font-size: 25px;
+  }
+  .card-content p
+  {
+    font-size: 17px;
+  }
+  .button
+  {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  .button2
+  {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #54335e;
+    width: 76px;
+    color:#fff ;
+    font-size: 14px;
+  }
+  .button2:hover {
+    background-color: #171717 ;
+    color:#fff ;
+  }
